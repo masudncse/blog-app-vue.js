@@ -1,24 +1,18 @@
 import Vue from 'vue'
-import VueRouter from 'vue-router'
+import store from './store';
+import router from './router';
 
 import App from './App.vue'
-import About from './components/AboutComponent'
-import Contact from './components/ContactComponent'
 
-Vue.use(VueRouter);
+require('./assets/css/bootstrap.css')
+require('./assets/css/blog.css')
 
-const router = new VueRouter({
-    mode: 'history',
-    routes: [
-        {path: '/', component: App},
-        {path: '/about', component: About},
-        {path: '/contact', component: Contact}
-    ]
-});
+require('./lib/jquery-2.0.3.min')
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 new Vue({
     router,
-    render: h => h(App),
+    store,
+    render: h => h(App)
 }).$mount('#app')
