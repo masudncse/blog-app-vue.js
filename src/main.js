@@ -1,18 +1,22 @@
-import Vue from 'vue'
-import store from './store';
-import router from './router';
+import Vue from "vue";
+import store from "./store";
+import router from "./router";
 
-import App from './App.vue'
+import VueRouter from "vue-router";
 
-require('./assets/css/bootstrap.css')
-require('./assets/css/blog.css')
+Vue.use(VueRouter);
 
-require('./lib/jquery-2.0.3.min')
+import App from "./App.vue";
+
+require("./assets/css/bootstrap.css");
+require("./assets/css/blog.css");
+
+require("./lib/jquery-2.0.3.min");
 
 Vue.config.productionTip = false;
 
 new Vue({
-    router,
-    store,
-    render: h => h(App)
-}).$mount('#app')
+  router,
+  store,
+  render: h => h(App)
+}).$mount("#app");

@@ -4,17 +4,21 @@
     <div class="row">
       <div class="col-md-8">
         <h1>Latest Posts</h1>
-        
+
         <article v-for="post in posts" v-bind:key="post.id">
           <h2>
-            <a href="single">{{ post.title }}</a>
+            <router-link v-bind:to="{path: '/single/' + post.id}">{{ post.title }}</router-link>
           </h2>
           <hr />
-          <img v-bind:src=" post.image " class="img-responsive" style="height: 100px; max-height: auto; width: auto; max-width: 100%;" />
+          <img
+            v-bind:src=" post.image "
+            class="img-responsive"
+            style="height: 100px; max-height: auto; width: auto; max-width: 100%;"
+          />
           <br />
           <p class="lead">{{ post.content }}</p>
           <p class="text-right">
-            <a href="/single">continue reading...</a>
+            <router-link v-bind:to="{path: '/single/', id: post.id}">continue reading...</router-link>
           </p>
           <hr />
         </article>
@@ -70,5 +74,4 @@ export default {
     posts: state => state.posts
   })
 };
-
 </script>
