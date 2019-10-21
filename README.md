@@ -1,29 +1,10 @@
-# vue-blog-example
+## Vue.JS Blog Application
 
-## Project setup
-```
-yarn install
-```
+This is a blog website application.
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+## Screenshot
 
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![1](https://github.com/masudncse/vue-blog-example/blob/master/screenshot/1.png)
+![2](https://github.com/masudncse/vue-blog-example/blob/master/screenshot/2.png)
+![3](https://github.com/masudncse/vue-blog-example/blob/master/screenshot/3.png)
+![4](https://github.com/masudncse/vue-blog-example/blob/master/screenshot/4.png)

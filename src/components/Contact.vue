@@ -9,7 +9,7 @@
       >Do you have any question? Please use the below contact form and send a message. I'll reply you as quick as possible.</p>
     </div>
 
-    <div class="contact-form col-md-8">
+    <div class="contact-form col-md-12">
       <form class="form-horizontal" role="form">
         <div class="form-group">
           <label for="name" class="col-md-2">Name</label>
@@ -45,32 +45,6 @@
           </div>
         </div>
       </form>
-    </div>
-
-    <!-- Latest Posts -->
-    <div class="col-md-4">
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <h4>Latest Posts</h4>
-        </div>
-        <ul class="list-group">
-          <li class="list-group-item">
-            <a href="singlepost.html">1. Aries Sun Sign March 21 - April 19</a>
-          </li>
-          <li class="list-group-item">
-            <a href="singlepost.html">2. Taurus Sun Sign April 20 - May 20</a>
-          </li>
-          <li class="list-group-item">
-            <a href="singlepost.html">3. Gemini Sun Sign May 21 - June 21</a>
-          </li>
-          <li class="list-group-item">
-            <a href="singlepost.html">4. Cancer Sun Sign June 22 - July 22</a>
-          </li>
-          <li class="list-group-item">
-            <a href="singlepost.html">5. Leo Sun Sign July 23 - August 22</a>
-          </li>
-        </ul>
-      </div>
     </div>
   </div>
 </template>

@@ -15,8 +15,8 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="index.html" class="logo-link">
-            <img src="assets/img/logo.png" alt="Astrospace" />
+          <a href="/" class="logo-link">
+            <img src="./assets/img/logo.png" alt="Astrospace" />
           </a>
         </div>
         <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
@@ -35,9 +35,6 @@
             </li>
             <li>
               <router-link to="/contact">Contact</router-link>
-            </li>
-            <li>
-              <router-link to="/posts">Create Posts</router-link>
             </li>
           </ul>
         </nav>

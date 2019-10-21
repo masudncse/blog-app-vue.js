@@ -8,34 +8,26 @@ const store = new Vuex.Store({
     posts: [
       {
         id: 1,
-        title: "title 1",
-        content: "content 1",
+        title: "Donec rutrum congue leo eget malesuada",
+        content: "Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.",
         image:
-          "https://cdn.shopifycloud.com/hatchful-web/assets/e1179e27ce0f55a3bd31d92e9c751731.png",
+          "https://cdn2.wpbeginner.com/wp-content/uploads/2019/01/choosethebestbloggingplatform.png",
         status: true
       },
       {
         id: 2,
-        title: "title 2",
-        content: "content 2",
+        title: "Nulla quis lorem ut libero malesuada feugiat",
+        content: "Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.",
         image:
-          "https://cdn.shopifycloud.com/hatchful-web/assets/6fcc76cfd1c59f44d43a485167fb3139.png",
+          "https://neilpatel.com/wp-content/uploads/2018/10/blog.jpg",
         status: true
       },
       {
         id: 3,
-        title: "title 3",
-        content: "content 3",
+        title: "Proin eget tortor risus",
+        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.",
         image:
-          "https://cdn.shopifycloud.com/hatchful-web/assets/eab093a0a25c7994ab8cc0b64eaadd00.png",
-        status: true
-      },
-      {
-        id: 4,
-        title: "title 4",
-        content: "content 4",
-        image:
-          "https://cdn.shopifycloud.com/hatchful-web/assets/c3a241ae6d1e03513dfed6f5061f4a4b.png",
+          "https://www.impactbnd.com/hubfs/blog-image-uploads/9_Blog_Layout_Best_Practices_From_2017.jpg",
         status: true
       }
     ]
